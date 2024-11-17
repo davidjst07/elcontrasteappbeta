@@ -7,9 +7,12 @@ environment:
   sdk: ^3.5.4
 
 dependencies:
+  card_swiper: ^3.0.1
   flutter:
     sdk: flutter
   go_router: ^14.6.0
+  http: ^0.13.3
+  url_launcher: ^6.0.9
 
 dev_dependencies:
   flutter_lints: ^4.0.0
@@ -18,3 +21,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
